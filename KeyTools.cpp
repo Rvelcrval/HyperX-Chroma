@@ -207,7 +207,7 @@ unordered_map<BYTE, vector<BYTE>> genCol2K ( ) {
 unordered_map<BYTE, vector<BYTE>> KeyTools::Row2Keys = genRow2K ( );
 unordered_map<BYTE, vector<BYTE>> KeyTools::Col2Keys = genCol2K ( );
 
-unordered_map<int, KeyTools::KEY_INDEX> KeyTools::VirtualKeyToEnum = {
+unordered_map<int, KeyTools::KEY_INDEX> KeyTools::RawKeyToEnum = {
     {0x29, KeyTools::KEY_ESC},
     {0x35, KeyTools::KEY_TILDE},
     {0x2B, KeyTools::KEY_TAB},

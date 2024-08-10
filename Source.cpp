@@ -62,7 +62,7 @@ int main ( int argc, char* argv[] ) {
 		
 		for ( auto k : MapKeys ) {
 			if ( !k.second ) continue;
-			auto key = KeyTools::VirtualKeyToEnum[ k.first ];
+			auto key = KeyTools::RawKeyToEnum[ k.first ];
 			g_pChroma->WriteKey ( key, Color::hsv2rgb ( key * 5 + i * 10, 1, 1 ) );
 		}
 

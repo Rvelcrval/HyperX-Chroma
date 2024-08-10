@@ -176,5 +176,5 @@ namespace KeyTools {
 
 	extern std::unordered_map<BYTE, std::vector<BYTE>> Row2Keys;
 	extern std::unordered_map<BYTE, std::vector<BYTE>> Col2Keys;
-	extern std::unordered_map<int, KEY_INDEX> VirtualKeyToEnum;
+	extern std::unordered_map<int, KEY_INDEX> RawKeyToEnum;
 }
